@@ -114,7 +114,7 @@ int natureFleur(double *w, double *x)
 
 void testBase(double *w, double **baseTest, int n)
 {
-    cout << "Num\tSepal\tPetal\tExpected output" << endl;
+    cout << "Num\tSepal\tPetal\tOutput" << endl;
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < MAX_COL - 1; j++)
